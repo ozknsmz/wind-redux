@@ -12,3 +12,5 @@ function App() {
 }
 
 export default App;
+
+// State = > It means that data belong to components

@@ -1,9 +1,10 @@
 // Reducer means that to return the suitable state
 
 import * as actionTypes from "../Actions/ActionTypes";
-import InitialState from "./InitialState";
+import initialState from "./InitialState";
 
-export default function changeCategoryReducer(state = InitialState, action) {
+
+function changeCategoryReducer(state = initialState.currentCategory, action) {
   switch (action.type) {
     case actionTypes.CHANGE_CATEGORY:
       return action.payload;
@@ -11,3 +12,5 @@ export default function changeCategoryReducer(state = InitialState, action) {
       return state;
   }
 }
+
+export default changeCategoryReducer;
