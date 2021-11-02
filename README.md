@@ -13,6 +13,8 @@ You will also see any lint errors in the console.
 
 ## Uses Technologies
 <ul>
+   <li>HTML</li>
+   <li>SASS</li>
   <li>React</li>
   <li>Redux</li>
   <li>Redux-Thunk</li>
